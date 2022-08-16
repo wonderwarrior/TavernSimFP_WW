@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - PosterWall
+  - Teleporter
+  - CinemachineTarget
+  - GrabTray
+  - DropOff
+  - PickUp
+  - Area1
+  - Order1
+  - Order2
+  - Order3
+  - Order
+  - Score
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Restricted
+  - Player
+  - Grabbable
+  - GreenScreen
+  - Loading
+  - Fader
+  - DropOff
+  - PickUp
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
