@@ -3053,8 +3053,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.193472, y: 1.6207542, z: 1.9114567}
-  m_Center: {x: 0.59673595, y: 0.31037712, z: 0.12729377}
+  m_Size: {x: 2.193472, y: 2.0265005, z: 2.1090784}
+  m_Center: {x: 0.59673595, y: 0.51325023, z: 0.028482914}
 --- !u!1 &493422284
 GameObject:
   m_ObjectHideFlags: 0
@@ -5456,8 +5456,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.307176, y: 1.7157915, z: 2.2249317}
-  m_Center: {x: 0.54456353, y: 0.35789573, z: 0.3754344}
+  m_Size: {x: 2.307176, y: 2.2514884, z: 2.7539277}
+  m_Center: {x: 0.54456353, y: 0.6257442, z: 0.43471074}
 --- !u!1 &1063264722
 GameObject:
   m_ObjectHideFlags: 0
@@ -6536,7 +6536,7 @@ MonoBehaviour:
   - {fileID: 456206995}
   - {fileID: 1046529595}
   - {fileID: 2050325818}
-  score: 0
+  score: 11
   scoreText: {fileID: 1063264724}
   pickUp: {fileID: 1511536835}
   order1Position: {fileID: 281825021}
@@ -10919,8 +10919,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.2304192, y: 1.6955769, z: 2.1252356}
-  m_Center: {x: 0.6152096, y: 0.34778845, z: 0.14488697}
+  m_Size: {x: 2.2304192, y: 2.107938, z: 2.5926604}
+  m_Center: {x: 0.6152096, y: 0.553969, z: 0.11572671}
 --- !u!1 &2091528737
 GameObject:
   m_ObjectHideFlags: 0
