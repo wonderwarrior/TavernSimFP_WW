@@ -108,22 +108,42 @@ public class OrderManager : MonoBehaviour
 
     public void SelectOrder()
     {
-        selectedOrder = Random.Range(1, 4);
-        switch (selectedOrder)
+        if (SceneManager.GetActiveScene().name != "TravernSimulatorTutorial")
         {
-            case 1:
-                currentOrder = order1;
-                break;
-            case 2:
-                currentOrder = order2;
-                break;
-            case 3:
-                currentOrder = order3;
-                break;
-            default:
-                Debug.Log("No order selected");
-                break;
+            selectedOrder = Random.Range(1, 4);
+            switch (selectedOrder)
+            {
+                case 1:
+                    currentOrder = order1;
+                    break;
+                case 2:
+                    currentOrder = order2;
+                    break;
+                case 3:
+                    currentOrder = order3;
+                    break;
+                default:
+                    Debug.Log("No order selected");
+                    break;
+            }
         }
+        else if (SceneManager.GetActiveScene().name == "TravernSimulatorTutorial")
+        {
+            selectedOrder = Random.Range(1, 3);
+            switch (selectedOrder)
+            {
+                case 1:
+                    currentOrder = order1;
+                    break;
+                case 2:
+                    currentOrder = order2;
+                    break;
+                default:
+                    Debug.Log("No order selected");
+                    break;
+            }
+        }
+       
 
     }
 
