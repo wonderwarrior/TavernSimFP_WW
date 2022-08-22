@@ -108,8 +108,6 @@ public class OrderManager : MonoBehaviour
 
     public void SelectOrder()
     {
-        if (SceneManager.GetActiveScene().name != "TravernSimulatorTutorial")
-        {
             selectedOrder = Random.Range(1, 4);
             switch (selectedOrder)
             {
@@ -126,45 +124,47 @@ public class OrderManager : MonoBehaviour
                     Debug.Log("No order selected");
                     break;
             }
-        }
-        else if (SceneManager.GetActiveScene().name == "TravernSimulatorTutorial")
-        {
-            selectedOrder = Random.Range(1, 3);
-            switch (selectedOrder)
-            {
-                case 1:
-                    currentOrder = order1;
-                    break;
-                case 2:
-                    currentOrder = order2;
-                    break;
-                default:
-                    Debug.Log("No order selected");
-                    break;
-            }
-        }
-       
-
     }
 
     public void SelectTable()
     {
-        selectedTable = Random.Range(1, 4);
-        switch (selectedTable)
+        if (SceneManager.GetActiveScene().name != "TravernSimulatorTutorial")
         {
-            case 1:
-                currentTable = table1;
-                break;
-            case 2:
-                currentTable = table2;
-                break;
-            case 3:
-                currentTable = table3;
-                break;
-            default:
-                Debug.Log("No table selected");
-                break;
+            selectedTable = Random.Range(1, 4);
+            switch (selectedTable)
+            {
+                case 1:
+                    currentTable = table1;
+                    break;
+                case 2:
+                    currentTable = table2;
+                    break;
+                case 3:
+                    currentTable = table3;
+                    break;
+                default:
+                    Debug.Log("No table selected");
+                    break;
+            }
         }
+        else if (SceneManager.GetActiveScene().name == "TravernSimulatorTutorial")
+        {
+            selectedTable = Random.Range(1, 3);
+            switch (selectedTable)
+            {
+                case 1:
+                    currentTable = table1;
+                    break;
+                case 2:
+                    currentTable = table2;
+                    break;
+                
+               default:
+                    Debug.Log("No table selected");
+                    break;
+            }
+        }
+        
  
     }
 
