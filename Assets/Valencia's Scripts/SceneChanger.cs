@@ -111,5 +111,10 @@ public class SceneChanger : MonoBehaviour
         Cursor.lockState = CursorLockMode.Confined;
         SceneManager.LoadScene("Menu Alpha");
     }
+    public void Quit()
+    {
+        Application.Quit();
+        Debug.Log("Game Quit");
+    }
 
 }
