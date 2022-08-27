@@ -59,7 +59,6 @@ public class OrderManager : MonoBehaviour
         score = 0;
 
         WrongOrder = false;
-
     }
 
     // Update is called once per frame
@@ -317,6 +316,7 @@ public class OrderManager : MonoBehaviour
 
     public void CheckOrder()
     {
+
         foreach (OrderChecker orderChecker in orderCheckers)
         {
 
@@ -333,6 +333,7 @@ public class OrderManager : MonoBehaviour
                         score++;
                         scoreText.text = score.ToString();
                         orderChecker.atTable = false;
+                        FindObjectOfType<audioManager>().Play("CorrectSorder");
 
 
                         SpawnPlateCorrect();
@@ -350,6 +351,7 @@ public class OrderManager : MonoBehaviour
 
                         StartCoroutine(WrongOrderTimer());
                         SpawnPlateWrong();
+                        FindObjectOfType<audioManager>().Play("WrongSorder");
                         break;
 
                     }
@@ -359,6 +361,7 @@ public class OrderManager : MonoBehaviour
 
                     StartCoroutine(WrongOrderTimer());
                     SpawnPlateWrong();
+                    FindObjectOfType<audioManager>().Play("WrongSorder");
                     break;
                 }
  
