@@ -17,6 +17,7 @@ public class OrderManager : MonoBehaviour
     public GameObject table1;
     public GameObject table2;
     public GameObject table3;
+    public GameObject table4;
     public int selectedTable;
     public GameObject currentTable;
 
@@ -79,12 +80,12 @@ public class OrderManager : MonoBehaviour
 
     public void CheckScore()
     {
-        if (score >= 10 && SceneManager.GetActiveScene().name == "TavernSimulatorFP Level 1")
+        if (score >= 16 && SceneManager.GetActiveScene().name == "TavernSimulatorFP Level 1")
         {
             Cursor.lockState = CursorLockMode.Confined;
             SceneManager.LoadScene("EndRound1Passed");
         }
-        else if (score >= 16 && SceneManager.GetActiveScene().name == "TavernSimulatorFP Level 2")
+        else if (score >= 22 && SceneManager.GetActiveScene().name == "TavernSimulatorFP Level 2")
         {
             Cursor.lockState = CursorLockMode.Confined;
             SceneManager.LoadScene("EndRound2Passed");
@@ -138,7 +139,7 @@ public class OrderManager : MonoBehaviour
 
     public void SelectTable()
     {
-        if (SceneManager.GetActiveScene().name != "TravernSimulatorTutorial")
+        if (SceneManager.GetActiveScene().name == "TavernSimulatorFP Level 1")
         {
             selectedTable = Random.Range(1, 4);
             switch (selectedTable)
@@ -174,8 +175,31 @@ public class OrderManager : MonoBehaviour
                     break;
             }
         }
-        
- 
+        else if (SceneManager.GetActiveScene().name == "TavernSimulatorFP Level 2")
+        {
+            selectedTable = Random.Range(1, 5);
+            switch (selectedTable)
+            {
+                case 1:
+                    currentTable = table1;
+                    break;
+                case 2:
+                    currentTable = table2;
+                    break;
+                case 3:
+                    currentTable = table3;
+                    break;
+                case 4:
+                    currentTable = table4;
+                    break;
+                default:
+                    Debug.Log("No table selected");
+                    break;
+            }
+        }
+
+
+
     }
 
   

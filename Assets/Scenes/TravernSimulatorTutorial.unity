@@ -757,7 +757,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &59936670
 Transform:
   m_ObjectHideFlags: 0
@@ -4685,7 +4685,7 @@ GameObject:
   m_Component:
   - component: {fileID: 762603082}
   m_Layer: 0
-  m_Name: DropOffPoint3
+  m_Name: DropOffPoint4
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -5043,7 +5043,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2560
+  m_Name: pb_Mesh-130490
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6102,6 +6102,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Typing (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6b67384f2c61cba49b9e3bba75325c96,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6b67384f2c61cba49b9e3bba75325c96,
         type: 3}
@@ -7386,12 +7391,14 @@ MonoBehaviour:
   table1: {fileID: 456206993}
   table2: {fileID: 1046529593}
   table3: {fileID: 2050325816}
+  table4: {fileID: 59936669}
   selectedTable: 0
   currentTable: {fileID: 0}
   orderCheckers:
   - {fileID: 456206995}
   - {fileID: 1046529595}
   - {fileID: 2050325818}
+  - {fileID: 59936671}
   score: 0
   scoreText: {fileID: 1063264724}
   pickUp: {fileID: 1511536835}
@@ -8376,11 +8383,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1293621643}
     m_Modifications:
-    - target: {fileID: 3149269010564708015, guid: c5efc39a8aaf6e64ea40e9ad573e9b47,
-        type: 3}
-      propertyPath: MinDistance
-      value: 1.4
-      objectReference: {fileID: 0}
     - target: {fileID: 3149269010564708015, guid: c5efc39a8aaf6e64ea40e9ad573e9b47,
         type: 3}
       propertyPath: PickupTarget
@@ -9623,6 +9625,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Asking Question (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: eff6c9f1eec915c47a925050bec8c448,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: eff6c9f1eec915c47a925050bec8c448,
         type: 3}
@@ -13594,7 +13601,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2050325817
 Transform:
   m_ObjectHideFlags: 0
