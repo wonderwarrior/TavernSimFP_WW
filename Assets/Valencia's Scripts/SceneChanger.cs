@@ -28,6 +28,11 @@ public class SceneChanger : MonoBehaviour
         Cursor.lockState = CursorLockMode.Confined;
         SceneManager.LoadScene("TavernSimulatorFP Level 1");
     }
+    public void LoadTutorial()
+    {
+        Cursor.lockState = CursorLockMode.Confined;
+        SceneManager.LoadScene("TravernSimulatorTutorial");
+    }
     public void LoadLevel1()
     {
         Cursor.lockState = CursorLockMode.Confined;
@@ -62,7 +67,7 @@ public class SceneChanger : MonoBehaviour
         {
             case "Prologue":
 
-                LoadLevel1();
+                LoadTutorial();
                 break;
             case "Cutscene-Round 1":
                 LoadLevel2();
