@@ -44,6 +44,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TravernSimulatorTutorial.unity
     guid: c32cac600aeb4534aaffe13e24a507b2
+  - enabled: 1
+    path: Assets/Scenes/EndTutorialPassed.unity
+    guid: 52c42909fad65324da2d599c55f8a934
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 0}
     Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 2ec24d39f7b5ac84aad7e5df7b4fd3ea,

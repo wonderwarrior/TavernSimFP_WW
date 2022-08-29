@@ -89,6 +89,11 @@ public class OrderManager : MonoBehaviour
             Cursor.lockState = CursorLockMode.Confined;
             SceneManager.LoadScene("EndRound2Passed");
         }
+        else if (score >= 12 && SceneManager.GetActiveScene().name == "TravernSimulatorTutorial")
+        {
+            Cursor.lockState = CursorLockMode.Confined;
+            SceneManager.LoadScene("EndTutorialPassed");
+        }
         else
         {
             if (SceneManager.GetActiveScene().name == "TavernSimulatorFP Level 1")
@@ -100,6 +105,12 @@ public class OrderManager : MonoBehaviour
             {
                 Cursor.lockState = CursorLockMode.Confined;
                 SceneManager.LoadScene("EndRound2Failed");
+            }
+            else if (SceneManager.GetActiveScene().name == "TravernSimulatorTutorial")
+            {
+
+                Cursor.lockState = CursorLockMode.Confined;
+                SceneManager.LoadScene("EndTutorialFailed");
             }
             
         }
