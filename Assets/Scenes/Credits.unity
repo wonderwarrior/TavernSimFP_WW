@@ -181,9 +181,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Music:\n\nGame Team:\nNathan Russell - Game Designer \r\nJordan Dickow
-    - Producer, Marketer\r\nMisha Samorodin - Art Director \r\nValencia Coleman -
-    Lead Gameplay Engineer \r\nJay Rooney -  Narrative Designer\r\n"
+  m_text: "Music:\nSerial Killer by John Bartmann\nFrog Legs Rag by James Scott\nhttps://www.chosic.com/free-music/all/
+    \n\nSound Effects:\nSounds from Zapsplat.com\n\nGame Team:\nNathan Russell -
+    Game Designer \r\nJordan Dickow - Producer, Marketer\r\nMisha Samorodin - Art
+    Director \r\nValencia Coleman - Lead Gameplay Engineer \r\nJay Rooney -  Narrative
+    Designer\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f5da8e2675cc9574c8948c024f8578d5, type: 2}
   m_sharedMaterial: {fileID: 7559465949935756378, guid: f5da8e2675cc9574c8948c024f8578d5,
@@ -247,7 +249,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -0.000000018597206, y: 0, z: -0.49409485, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
