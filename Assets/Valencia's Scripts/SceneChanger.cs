@@ -66,19 +66,21 @@ public class SceneChanger : MonoBehaviour
         switch (SceneManager.GetActiveScene().name)
         {
             case "Prologue":
-
                 LoadTutorial();
                 break;
+            case "TravernSimulatorTutorial":
+                SceneManager.LoadScene("S2P1");
+                break;
 
-            case "Cutscene-Round 1":
-                LoadLevel2();
-                break;
-            case "Cutscene - Round 2":
-                EndChapter1();
-                break;
-            case "Cutscene - End Ch. 1":
-                EndBeta();
-                break;
+            //case "Cutscene-Round 1":
+            //    LoadLevel2();
+            //    break;
+            //case "Cutscene - Round 2":
+            //    EndChapter1();
+            //    break;
+            //case "Cutscene - End Ch. 1":
+            //    EndBeta();
+            //    break;
             default:
                 break;
         }
