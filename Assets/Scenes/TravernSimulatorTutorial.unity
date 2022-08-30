@@ -8497,6 +8497,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3149269010564708015, guid: c5efc39a8aaf6e64ea40e9ad573e9b47,
         type: 3}
+      propertyPath: MinDistance
+      value: 1.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3149269010564708015, guid: c5efc39a8aaf6e64ea40e9ad573e9b47,
+        type: 3}
       propertyPath: PickupTarget
       value: 
       objectReference: {fileID: 2032452704}
