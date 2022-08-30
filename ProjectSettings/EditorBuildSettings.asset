@@ -80,6 +80,90 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cutscenes/S4P1.unity
     guid: b8ee3fe614d55b24e865146cc721ddd0
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S4P2.unity
+    guid: e8f5bb85f5364ed44bf6d381ea31b430
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S4P3.unity
+    guid: 32b03de5af5bbf8448078175cbc35bdf
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S4P4.unity
+    guid: 09176986c308b4847a46bc5569e08a65
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S4P5.unity
+    guid: 674d9aaafa50a5e4f9b2f79f8bbffc4d
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S4P6.unity
+    guid: de52b212a40b4544991b91a4b193234b
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S4P7.unity
+    guid: 87a838b94bfd18047bfe3235c299597d
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S4P8.unity
+    guid: cdbc1bd52bcbfb8408e2e22611393eab
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S4P9.unity
+    guid: fa660733c094e0a46b0b95189de7b82a
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S4P10.unity
+    guid: d555556b962aac04097d2ddfdcf5f07f
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S4P11.unity
+    guid: b48a4d5fe00dbba41b967975bba0844d
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S4P12.unity
+    guid: d744608dabac93d4e9c3da1951a12ab5
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S4P13.unity
+    guid: 5c2fbdde5f22a9a4291388067b3813d4
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S4P14.unity
+    guid: 1d196bf651d5a1c429464bf990030cdf
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S4P15.unity
+    guid: b7d43596bfc7b14468fd6c3e7fd0428a
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S4P16.unity
+    guid: a249ffcd587778344948d9d47ac560f3
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S5P1.unity
+    guid: cab9fdb8d57cb494b93265905cceaf60
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S5P2.unity
+    guid: b6f6a359b18c20e43a321e5cc317c691
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S5P3.unity
+    guid: 01de141a0c0624b4d96390c2f728f608
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S5P4.unity
+    guid: 77a55113b3f35124ca8b5e567b2d4f04
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S5P5.unity
+    guid: 9bcd92aebceffdf4ba5dd558ae74d880
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S5P6.unity
+    guid: 52bc0f41ca2bb764584e69c6d8ee7e72
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S5P7.unity
+    guid: b48716e927c376348a349e8dedc791bf
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S5P8.unity
+    guid: a9180f72612e36c45818e96833c103cd
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S5P9.unity
+    guid: b832592c9be7f704e894b32b5e52d583
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S5P10.unity
+    guid: 500e5f9e9c4814247bf4a02b0e3b2c22
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S5P11.unity
+    guid: 21d812b4ee9a646419121a4411be5139
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S5P12.unity
+    guid: 02e084b1625de7f4a9d98cca1aa3186b
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: 7557a037c87f3b9468f7ace76602ab1b
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 0}
     Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 2ec24d39f7b5ac84aad7e5df7b4fd3ea,

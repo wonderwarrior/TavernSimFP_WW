@@ -94,6 +94,8 @@ public class SceneChanger : MonoBehaviour
                 break;
             case "S2P9":
                 LoadLevel1();
+
+
                 break;
             case "S3P1":
                 SceneManager.LoadScene("S3P2");
@@ -103,6 +105,100 @@ public class SceneChanger : MonoBehaviour
                 break;
             case "S3P3":
                 LoadLevel2();
+                break;
+
+
+            case "S4P1":
+                SceneManager.LoadScene("S4P2");
+                break;
+            case "S4P2":
+                SceneManager.LoadScene("S4P3");
+                break;
+            case "S4P3":
+                SceneManager.LoadScene("S4P4");
+                break;
+            case "S4P4":
+                SceneManager.LoadScene("S4P5");
+                break;
+            case "S4P5":
+                SceneManager.LoadScene("S4P6");
+                break;
+            case "S4P6":
+                SceneManager.LoadScene("S4P7");
+                break;
+            case "S4P7":
+                SceneManager.LoadScene("S4P8");
+                break;
+            case "S4P8":
+                SceneManager.LoadScene("S4P9");
+                break;
+            case "S4P9":
+                SceneManager.LoadScene("S4P10");
+                break;
+            case "S4P10":
+                SceneManager.LoadScene("S4P11");
+                break;
+            case "S4P11":
+                SceneManager.LoadScene("S4P12");
+                break;
+            case "S4P12":
+                SceneManager.LoadScene("S4P13");
+                break;
+            case "S4P13":
+                SceneManager.LoadScene("S4P14");
+                break;
+            case "S4P14":
+                SceneManager.LoadScene("S4P15");
+                break;
+            case "S4P15":
+                SceneManager.LoadScene("S4P16");
+                break;
+            case "S4P16":
+                SceneManager.LoadScene("S4P17");
+                break;
+            case "S4P17":
+                SceneManager.LoadScene("S4P18");
+                break;
+            case "S4P18":
+                SceneManager.LoadScene("S5P1");
+                break;
+
+
+            case "S5P1":
+                SceneManager.LoadScene("S5P2");
+                break;
+            case "S5P2":
+                SceneManager.LoadScene("S5P3");
+                break;
+            case "S5P3":
+                SceneManager.LoadScene("S5P4");
+                break;
+            case "S5P4":
+                SceneManager.LoadScene("S5P5");
+                break;
+            case "S5P5":
+                SceneManager.LoadScene("S5P6");
+                break;
+            case "S5P6":
+                SceneManager.LoadScene("S5P7");
+                break;
+            case "S5P7":
+                SceneManager.LoadScene("S5P8");
+                break;
+            case "S5P8":
+                SceneManager.LoadScene("S5P9");
+                break;
+            case "S5P9":
+                SceneManager.LoadScene("S5P10");
+                break;
+            case "S5P10":
+                SceneManager.LoadScene("S5P11");
+                break;
+            case "S5P11":
+                SceneManager.LoadScene("S5P12");
+                break;
+            case "S5P12":
+                SceneManager.LoadScene("End");
                 break;
 
 
@@ -163,5 +259,6 @@ public class SceneChanger : MonoBehaviour
         Application.Quit();
         Debug.Log("Game Quit");
     }
+    
 
 }
