@@ -32,6 +32,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4614581847793138681, guid: ae686cd9d7dc0ed40b8e9b61ba8f8549,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 4614581847959065083, guid: ae686cd9d7dc0ed40b8e9b61ba8f8549,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -60,7 +65,7 @@ PrefabInstance:
     - target: {fileID: 4614581848524617926, guid: ae686cd9d7dc0ed40b8e9b61ba8f8549,
         type: 3}
       propertyPath: m_Name
-      value: Canvas (Dialogue)
+      value: Canvas (Dialogue) Variant
       objectReference: {fileID: 0}
     - target: {fileID: 4614581848524617946, guid: ae686cd9d7dc0ed40b8e9b61ba8f8549,
         type: 3}
