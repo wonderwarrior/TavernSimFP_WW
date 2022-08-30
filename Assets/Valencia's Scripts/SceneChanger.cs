@@ -115,7 +115,12 @@ public class SceneChanger : MonoBehaviour
     public void Menu()
     {
         Cursor.lockState = CursorLockMode.Confined;
-        SceneManager.LoadScene("Menu Alpha");
+        SceneManager.LoadScene("Main Menu");
+    }
+    public void Credits()
+    {
+        Cursor.lockState = CursorLockMode.Confined;
+        SceneManager.LoadScene("Credits");
     }
     public void Quit()
     {
