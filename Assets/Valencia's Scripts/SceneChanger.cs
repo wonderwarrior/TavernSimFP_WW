@@ -68,9 +68,43 @@ public class SceneChanger : MonoBehaviour
             case "Prologue":
                 LoadTutorial();
                 break;
-            case "TravernSimulatorTutorial":
-                SceneManager.LoadScene("S2P1");
+            case "S2P1":
+                SceneManager.LoadScene("S2P2");
                 break;
+            case "S2P2":
+                SceneManager.LoadScene("S2P3");
+                break;
+            case "S2P3":
+                SceneManager.LoadScene("S2P4");
+                break;
+            case "S2P4":
+                SceneManager.LoadScene("S2P5");
+                break;
+            case "S2P5":
+                SceneManager.LoadScene("S2P6");
+                break;
+            case "S2P6":
+                SceneManager.LoadScene("S2P7");
+                break;
+            case "S2P7":
+                SceneManager.LoadScene("S2P8");
+                break;
+            case "S2P8":
+                SceneManager.LoadScene("S2P9");
+                break;
+            case "S2P9":
+                LoadLevel1();
+                break;
+            case "S3P1":
+                SceneManager.LoadScene("S3P2");
+                break;
+            case "S3P2":
+                SceneManager.LoadScene("S3P3");
+                break;
+            case "S3P3":
+                LoadLevel2();
+                break;
+
 
             //case "Cutscene-Round 1":
             //    LoadLevel2();
@@ -92,28 +126,23 @@ public class SceneChanger : MonoBehaviour
         SceneManager.LoadScene("Prologue");
     }
     
-    public void Cutscene1()
+    public void S2P1()
     {
         Cursor.lockState = CursorLockMode.Confined;
-        SceneManager.LoadScene("Cutscene-Round 1");
+        SceneManager.LoadScene("S2P1");
     }
 
-    public void Cutscene2()
+    public void S3P1()
     {
         Cursor.lockState = CursorLockMode.Confined;
-        SceneManager.LoadScene("Cutscene - Round 2");
+        SceneManager.LoadScene("S3P1");
+    }
+    public void S4P1()
+    {
+        Cursor.lockState = CursorLockMode.Confined;
+        SceneManager.LoadScene("S4P1");
     }
 
-    public void EndChapter1()
-    {
-        Cursor.lockState = CursorLockMode.Confined;
-        SceneManager.LoadScene("Cutscene - End Ch. 1");
-    }
-    public void EndBeta()
-    {
-        Cursor.lockState = CursorLockMode.Confined;
-        SceneManager.LoadScene("BetaEnd");
-    }
     public void Menu()
     {
         Cursor.lockState = CursorLockMode.Confined;

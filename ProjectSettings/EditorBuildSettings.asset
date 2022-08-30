@@ -27,18 +27,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Prologue.unity
     guid: 43ae1b4f44d122b49a8667dfe37c7646
   - enabled: 1
-    path: Assets/Scenes/Old Scenes/Cutscene-Round 1.unity
-    guid: 03fb828e03183334abd5e39a022456cd
-  - enabled: 1
-    path: Assets/Scenes/Old Scenes/Cutscene - Round 2.unity
-    guid: 3c0ab540390cebf43969c66b70b7f521
-  - enabled: 1
-    path: Assets/Scenes/Old Scenes/Cutscene - End Ch. 1.unity
-    guid: 8efbfef6397b7a8478a77b62de4ef501
-  - enabled: 1
-    path: Assets/Scenes/BetaEnd.unity
-    guid: 7557a037c87f3b9468f7ace76602ab1b
-  - enabled: 1
     path: Assets/Scenes/TravernSimulatorTutorial.unity
     guid: c32cac600aeb4534aaffe13e24a507b2
   - enabled: 1
@@ -53,6 +41,45 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Controls.unity
     guid: 3c0701d8859894f4a98dd8106b590e3c
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S2P1.unity
+    guid: 3517c53fca61930458f1a47c60dba960
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S2P2.unity
+    guid: 3425db86f12d6f74381f1fe30935b97b
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S2P3.unity
+    guid: 0ef4644280c3229488d892aa4fa8ce0c
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S2P4.unity
+    guid: 499463eb9a423484eb9bc03d1a7c5c29
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S2P5.unity
+    guid: e8a4613258cf3e7438377e850ed0f6cd
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S2P6.unity
+    guid: a45b8eb8dd6d63d40966d636e90fa3ab
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S2P7.unity
+    guid: 178f63ab84c20bf4d82938a5b8b4c4b7
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S2P8.unity
+    guid: 916d2f8ce4761334986c8691b46edb4e
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S2P9.unity
+    guid: b8f5d0af35a83b24fbc3e89aad35c2de
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S3P1.unity
+    guid: 93a458187433918479003c4cc988adb1
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S3P2.unity
+    guid: 33122f1c39d1a2548b5244a122e60c58
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S3P3.unity
+    guid: 7ae63109beadfea4c8dd418f001d450c
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/S4P1.unity
+    guid: b8ee3fe614d55b24e865146cc721ddd0
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 0}
     Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 2ec24d39f7b5ac84aad7e5df7b4fd3ea,
