@@ -31,17 +31,20 @@ public class SceneChanger : MonoBehaviour
     public void LoadTutorial()
     {
         Cursor.lockState = CursorLockMode.Confined;
+        BGMusic.instance.GetComponent<AudioSource>().Pause();
         SceneManager.LoadScene("TravernSimulatorTutorial");
     }
     public void LoadLevel1()
     {
         Cursor.lockState = CursorLockMode.Confined;
+        BGMusic.instance.GetComponent<AudioSource>().Pause();
         SceneManager.LoadScene("TavernSimulatorFP Level 1");
     }
     
     public void LoadLevel2()
     {
         Cursor.lockState = CursorLockMode.Confined;
+        BGMusic.instance.GetComponent<AudioSource>().Pause();
         SceneManager.LoadScene("TavernSimulatorFP Level 2");
     }
 
@@ -98,6 +101,7 @@ public class SceneChanger : MonoBehaviour
 
                 break;
             case "S3P1":
+                BGMusic.instance.GetComponent<AudioSource>().Play();
                 SceneManager.LoadScene("S3P2");
                 break;
             case "S3P2":
@@ -109,6 +113,7 @@ public class SceneChanger : MonoBehaviour
 
 
             case "S4P1":
+                BGMusic.instance.GetComponent<AudioSource>().Play();
                 SceneManager.LoadScene("S4P2");
                 break;
             case "S4P2":
@@ -198,6 +203,7 @@ public class SceneChanger : MonoBehaviour
                 SceneManager.LoadScene("S5P12");
                 break;
             case "S5P12":
+                BGMusic.instance.GetComponent<AudioSource>().Pause();
                 SceneManager.LoadScene("End");
                 break;
 
@@ -224,17 +230,20 @@ public class SceneChanger : MonoBehaviour
     
     public void S2P1()
     {
+        BGMusic.instance.GetComponent<AudioSource>().Play();
         Cursor.lockState = CursorLockMode.Confined;
         SceneManager.LoadScene("S2P1");
     }
 
     public void S3P1()
     {
+        BGMusic.instance.GetComponent<AudioSource>().Play();
         Cursor.lockState = CursorLockMode.Confined;
         SceneManager.LoadScene("S3P1");
     }
     public void S4P1()
     {
+        BGMusic.instance.GetComponent<AudioSource>().Play();
         Cursor.lockState = CursorLockMode.Confined;
         SceneManager.LoadScene("S4P1");
     }
