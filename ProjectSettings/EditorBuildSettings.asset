@@ -50,6 +50,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: 83951b761325d104fb3c589855cb5e84
+  - enabled: 1
+    path: Assets/Scenes/Controls.unity
+    guid: 3c0701d8859894f4a98dd8106b590e3c
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 0}
     Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 2ec24d39f7b5ac84aad7e5df7b4fd3ea,

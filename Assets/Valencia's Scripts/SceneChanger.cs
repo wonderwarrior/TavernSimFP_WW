@@ -122,6 +122,11 @@ public class SceneChanger : MonoBehaviour
         Cursor.lockState = CursorLockMode.Confined;
         SceneManager.LoadScene("Credits");
     }
+    public void Controls()
+    {
+        Cursor.lockState = CursorLockMode.Confined;
+        SceneManager.LoadScene("Controls");
+    }
     public void Quit()
     {
         Application.Quit();
